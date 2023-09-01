@@ -17,25 +17,21 @@ site: distill::distill_website
  
 ## Bio
 
-Frank Hermosillo studies neural networks and their applications at Google 
-Brain. His research focuses on differentiable network pruning approximation and 
-decentralized gradient inversion mechanics. He frequently collaborates with 
-researchers who study machine learning, computer vision, and cognitive science.
-His work has been featured in WIRED, The Atlantic, Newsweek, and The New York 
-Times Magazine.
+Dr. Fadhah Alanazi has a master degree from Australian National University, Canberra, and a Ph.D
+from Queensland University of Technology. She is expert in R and Rstudio. 
 
 ## Education
 
-**Massachusetts Institute of Technology** | Cambridge, MA
+**Queensland University of Technology** | Brisbane, Australia
 
-Ph.D. in Computer Science | September 2009 - May 2014
+Ph.D in Statistics | July 2015 - August 2019
 
-**The University of California, Berkeley** | Berkeley, CA
+**Australian National University** | Canberra, Australia
 
-B.S. in Computer Science | September 2005 - May 2009
+Master in Mathematical Science | February 2011 - July 2013
 
 ## Experience
 
-**Google Brain** | Principal Investigator | January 2018 - Present
+<!-- **Google Brain** | Principal Investigator | January 2018 - Present -->
 
-**Netflix** | Research Scientist | June 2014 - December 2017
+<!-- **Netflix** | Research Scientist | June 2014 - December 2017 -->
