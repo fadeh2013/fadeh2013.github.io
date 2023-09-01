@@ -4,8 +4,6 @@ image: "fire.jpg"
 links:
   - label: LinkedIn
     url: "linkedin.com/in/dr-fadhah-alanazi-840726289"
-  - label: Twitter
-    url: "https://twitter.com/"
   - label: GitHub
     url: "https://github.com/fadeh2013"
   - label: Email
@@ -17,14 +15,14 @@ site: distill::distill_website
  
 ## Bio
 
-Dr. Fadhah Alanazi has a master degree from Australian National University, Canberra, and a Ph.D
-from Queensland University of Technology. She is expert in R and Rstudio. 
+Dr. Fadhah Alanazi has a master's degree from the Australian National University, Canberra, and a Ph.D
+from Queensland University of Technology. She is an expert in R and Rstudio. 
 
 ## Education
 
 **Queensland University of Technology** | Brisbane, Australia
 
-Ph.D in Statistics | July 2015 - August 2019
+Ph.D. in Statistics | July 2015 - August 2019
 
 **Australian National University** | Canberra, Australia
 
