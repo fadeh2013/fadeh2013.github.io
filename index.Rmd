@@ -3,7 +3,7 @@ title: "Dr. Fadhah Alanazi"
 image: "fire.jpg"
 links:
   - label: LinkedIn
-    url: "linkedin.com/in/dr-fadhah-alanazi-840726289"
+    url: "https://linkedin.com/in/dr-fadhah-alanazi-840726289"
   - label: GitHub
     url: "https://github.com/fadeh2013"
   - label: Email
