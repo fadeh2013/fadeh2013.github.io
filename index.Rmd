@@ -7,9 +7,9 @@ links:
   - label: Twitter
     url: "https://twitter.com/"
   - label: GitHub
-    url: "https://github.com/"
+    url: "https://github.com/fadeh2013"
   - label: Email
-    url: "mailto:email@email.com"
+    url: "fadeh2013@gmail.com"
 output:
   postcards::trestles
 site: distill::distill_website
