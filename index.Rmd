@@ -1,6 +1,6 @@
 ---
 title: "Dr. Fadhah Alanazi"
-image: "fire"
+image: "fire.jpg"
 links:
   - label: LinkedIn
     url: "linkedin.com/in/dr-fadhah-alanazi-840726289"
