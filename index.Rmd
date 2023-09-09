@@ -2,16 +2,15 @@
 title: "Dr. Fadhah Alanazi"
 image: "images/fire.jpg"
 links:
-  - label: LinkedIn
-    url: "https://linkedin.com/in/dr-fadhah-alanazi-840726289"
-  - label: GitHub
-    url: "https://github.com/fadeh2013"
-  - label: Email
-    url: "mailto:fadeh2013@gmail.com"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: 'https://github.com/fadeh2013'
+  - label: '<i class="fab fa-linkedin"></i> LinkedIn'
+    url: 'https://linkedin.com/in/dr-fadhah-alanazi-840726289'
 output:
   postcards::trestles
 site: distill::distill_website
 ---
+ 
  
 ## Bio
 
