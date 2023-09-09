@@ -6,8 +6,18 @@ output_dir: "docs"
 theme: Fadhah-theme.css
 navbar:
   right:
-    - text: "Home"
-      href: home
+    - text: "Getting Started"
+      href: getting_started.html
+    - text: "Lessons"
+      menu:
+           - text: "Sample and Population"
+             href: Stat1.html
+           - text: "Central and Variation"
+             href: Stat2.html
+           - text: "hypothesis for one mean"
+             href: hypothesisSmean.html
+           - text: "Introduction to Rstudio"
+             href: Rstudio1.html
     - text: "About"
-      href: about
+      href: about.html
 output: distill::distill_article
