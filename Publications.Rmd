@@ -8,7 +8,11 @@ author:
     affiliation: Prince Sultan University
     affiliation_url: https://www.psu.edu.sa/en
 date: "`r Sys.Date()`"
-output: distill::distill_article
+output: 
+  distill::distill_article:
+    toc: true
+    toc_depth: 2
+    toc_float: true
 ---
 
 ```{r setup, include=FALSE}
