@@ -1,0 +1,19 @@
+---
+title: "Sample and Population"
+description: |
+  This page intorudce a simpel intorduciton to sample and population.
+author:
+  - name: Dr. Fadhah Alanai
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+
