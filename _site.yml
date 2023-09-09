@@ -7,7 +7,7 @@ theme: Fadhah-theme.css
 navbar:
   right:
     - text: "Getting Started"
-      href: getting_started.html
+      href: Publications.html
     - text: "Lessons"
       menu:
            - text: "Sample and Population"
