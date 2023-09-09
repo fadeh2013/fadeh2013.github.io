@@ -3,6 +3,7 @@ title: "Dr. Fadhah Alanazi"
 description: |
   Dr. Fadhah Alanazi
 output_dir: "docs"
+theme: Fadhah-theme.css
 navbar:
   right:
     - text: "Home"
