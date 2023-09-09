@@ -1,7 +1,7 @@
 ---
 title: "About this site"
 description: |
-  The website in addition to Dr.Fadhah's pbulications, provides several short toturials to R and Statistics. 
+  In addition to Dr.Fadhah's pbulications, this website provides several short toturials to R and Statistics. 
 ---
 
 ```{r setup, include=FALSE}
