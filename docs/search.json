@@ -6,28 +6,28 @@
       "description": "The website provide is about Dr.Fadhah's pbulications. ",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2023-09-09T16:27:37+03:00"
-    },
-    {
-      "path": "getting_started.html",
-      "title": "Untitled",
-      "description": "A new article created using the Distill format.\n",
-      "author": [
-        {
-          "name": "Nora Jones",
-          "url": "https://example.com/norajones"
-        }
-      ],
-      "date": "`r Sys.Date()`",
-      "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill for R Markdown at https://rstudio.github.io/distill.\n\n\n\n",
-      "last_modified": "2023-09-09T16:27:37+03:00"
+      "last_modified": "2023-09-09T16:31:57+03:00"
     },
     {
       "path": "index.html",
       "title": "Dr. Fadhah Alanazi",
       "author": [],
       "contents": "\n\n          \n          \n          Dr. Fadhah Alanazi\n          \n          \n          Getting Started\n          \n          \n          Lessons\n           \n          ▾\n          \n          \n          Sample and Population\n          Central and Variation\n          hypothesis for one mean\n          Introduction to Rstudio\n          \n          \n          About\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                    \n                      \n                         GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                         LinkedIn\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            Dr. Fadhah Alanazi has a master’s degree from the\n            Australian National University, Canberra, and a Ph.D from\n            Queensland University of Technology. She is an expert in R\n            and Rstudio.\n            \n            \n            Education\n            Queensland University of Technology |\n            Brisbane, Australia\n            Ph.D. in Statistics | July 2015 - August 2019\n            Australian National University |\n            Canberra, Australia\n            Master in Mathematical Science | February 2011 - July\n            2013\n            \n            \n            Experience\n            Prince Sultan University | Statistics\n            instructor | January 2020 - Present\n            Northern Border University | Statistics\n            instructor | June 2014 - June 2015\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                                    \n                    \n                       GitHub\n                    \n                  \n                                    \n                    \n                       LinkedIn\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              Dr. Fadhah Alanazi has a master’s degree from the\n              Australian National University, Canberra, and a Ph.D from\n              Queensland University of Technology. She is an expert in R\n              and Rstudio.\n              \n              \n              Education\n              Queensland University of Technology |\n              Brisbane, Australia\n              Ph.D. in Statistics | July 2015 - August 2019\n              Australian National University |\n              Canberra, Australia\n              Master in Mathematical Science | February 2011 - July\n              2013\n              \n              \n              Experience\n              Prince Sultan University | Statistics\n              instructor | January 2020 - Present\n              Northern Border University |\n              Statistics instructor | June 2014 - June 2015\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2023-09-09T16:27:44+03:00"
+      "last_modified": "2023-09-09T16:32:05+03:00"
+    },
+    {
+      "path": "Publications.html",
+      "title": "Puplications",
+      "description": "The publications of Dr. Fadhah Amer Alanazi\n",
+      "author": [
+        {
+          "name": "Dr. Fadhah Amer Alanazi",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "`r Sys.Date()`",
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-09-09T16:32:05+03:00"
     }
   ],
   "collections": []

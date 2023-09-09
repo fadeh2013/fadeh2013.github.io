@@ -6,7 +6,7 @@ output_dir: "docs"
 theme: Fadhah-theme.css
 navbar:
   right:
-    - text: "Getting Started"
+    - text: "Publications"
       href: Publications.html
     - text: "Lessons"
       menu:
