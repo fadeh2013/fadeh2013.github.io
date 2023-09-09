@@ -3,17 +3,17 @@
     {
       "path": "about.html",
       "title": "About this site",
-      "description": "The website in addition to Dr.Fadhah's pbulications, provides several short toturials to R and Statistics. ",
+      "description": "In addition to Dr.Fadhah's pbulications, this website provides several short toturials to R and Statistics. ",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2023-09-09T18:37:53+03:00"
+      "last_modified": "2023-09-09T18:38:33+03:00"
     },
     {
       "path": "index.html",
       "title": "Dr. Fadhah Alanazi",
       "author": [],
       "contents": "\n\n          \n          \n          Dr. Fadhah Alanazi\n          \n          \n          Publications\n          \n          \n          Lessons\n           \n          ▾\n          \n          \n          Sample and Population\n          Central and Variation\n          hypothesis for one mean\n          Introduction to Rstudio\n          \n          \n          About\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                    \n                      \n                         GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                         LinkedIn\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            Dr. Fadhah Alanazi has a master’s degree from the\n            Australian National University, Canberra, and a Ph.D from\n            Queensland University of Technology. She is an expert in R\n            and Rstudio.\n            \n            \n            Education\n            Queensland University of Technology |\n            Brisbane, Australia\n            Ph.D. in Statistics | July 2015 - August 2019\n            Australian National University |\n            Canberra, Australia\n            Master in Mathematical Science | February 2011 - July\n            2013\n            \n            \n            Experience\n            Prince Sultan University | Statistics\n            instructor | January 2020 - Present\n            Northern Border University | Statistics\n            instructor | June 2014 - June 2015\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                                    \n                    \n                       GitHub\n                    \n                  \n                                    \n                    \n                       LinkedIn\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              Dr. Fadhah Alanazi has a master’s degree from the\n              Australian National University, Canberra, and a Ph.D from\n              Queensland University of Technology. She is an expert in R\n              and Rstudio.\n              \n              \n              Education\n              Queensland University of Technology |\n              Brisbane, Australia\n              Ph.D. in Statistics | July 2015 - August 2019\n              Australian National University |\n              Canberra, Australia\n              Master in Mathematical Science | February 2011 - July\n              2013\n              \n              \n              Experience\n              Prince Sultan University | Statistics\n              instructor | January 2020 - Present\n              Northern Border University |\n              Statistics instructor | June 2014 - June 2015\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2023-09-09T18:37:59+03:00"
+      "last_modified": "2023-09-09T18:38:41+03:00"
     },
     {
       "path": "Publications.html",
@@ -27,7 +27,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\nContents\nMixture Vine Copula\nCOVID-19 and Copula\nTruncation R-vine Copula\n\nMixture Vine Copula\nA mixture of regular vines for multiple dependencies:\nMixture R-Vine Copula.\nCOVID-19 and Copula\nThe spread of COVID-19 at Hot-Temperature Places With Different Curfew Situations Using Copula Models:\nCOVID-19 and Copula.\nTruncation R-vine Copula\nSequential truncation of r-vine copula mixture model for high-dimensional datasets:\nSquential Truncation.\nTruncating regular vine copula based on mutual information: An efficient parsimonious model for high-dimensional data:\nMI and turncation R-vine copoula.\nNovel pruning and truncating of the mixture of vine copula clustering models:\nNovel mixture Truncaion.\n\n\n\n",
-      "last_modified": "2023-09-09T18:38:00+03:00"
+      "last_modified": "2023-09-09T18:38:42+03:00"
     },
     {
       "path": "Stat1.html",
@@ -41,7 +41,7 @@
       ],
       "date": "`r Sys.Date()`",
       "contents": "\n\n\n\n",
-      "last_modified": "2023-09-09T18:38:01+03:00"
+      "last_modified": "2023-09-09T18:38:42+03:00"
     }
   ],
   "collections": []
