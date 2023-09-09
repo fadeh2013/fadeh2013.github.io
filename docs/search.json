@@ -1,19 +1,11 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "The website provide is about Dr.Fadhah's pbulications. ",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2023-09-09T10:50:46+03:00"
-    },
-    {
       "path": "index.html",
       "title": "Dr. Fadhah Alanazi",
       "author": [],
       "contents": "\n\n          \n          \n          Dr. Fadhah Alanazi\n          \n          \n          Home\n          About\n          ☰\n          \n          \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                    \n                      \n                         GitHub\n                      \n                    \n                  \n                                    \n                    \n                      \n                         LinkedIn\n                      \n                    \n                  \n                                  \n            \n          \n        \n        \n        \n          \n            \n            Bio\n            Dr. Fadhah Alanazi has a master’s degree from the\n            Australian National University, Canberra, and a Ph.D from\n            Queensland University of Technology. She is an expert in R\n            and Rstudio.\n            \n            \n            Education\n            Queensland University of Technology |\n            Brisbane, Australia\n            Ph.D. in Statistics | July 2015 - August 2019\n            Australian National University |\n            Canberra, Australia\n            Master in Mathematical Science | February 2011 - July\n            2013\n            \n            \n            Experience\n            Prince Sultan University | Statistics\n            instructor | January 2020 - Present\n            Northern Border University | Statistics\n            instructor | June 2014 - June 2015\n            \n          \n        \n      \n    \n\n    \n      \n        \n          \n            \n              \n            \n              Dr. Fadhah Alanazi\n            \n            \n              \n                \n                                    \n                    \n                       GitHub\n                    \n                  \n                                    \n                    \n                       LinkedIn\n                    \n                  \n                                  \n              \n            \n            \n              \n              Bio\n              Dr. Fadhah Alanazi has a master’s degree from the\n              Australian National University, Canberra, and a Ph.D from\n              Queensland University of Technology. She is an expert in R\n              and Rstudio.\n              \n              \n              Education\n              Queensland University of Technology |\n              Brisbane, Australia\n              Ph.D. in Statistics | July 2015 - August 2019\n              Australian National University |\n              Canberra, Australia\n              Master in Mathematical Science | February 2011 - July\n              2013\n              \n              \n              Experience\n              Prince Sultan University | Statistics\n              instructor | January 2020 - Present\n              Northern Border University |\n              Statistics instructor | June 2014 - June 2015\n              \n            \n        \n      \n    \n\n    \n    \n    ",
-      "last_modified": "2023-09-09T10:56:10+03:00"
+      "last_modified": "2023-09-09T16:04:10+03:00"
     }
   ],
   "collections": []
