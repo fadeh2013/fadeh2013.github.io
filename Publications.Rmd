@@ -4,7 +4,7 @@ description: |
   The publications of Dr. Fadhah Amer Alanazi
 author:
   - name: Dr. Fadhah Amer Alanazi 
-    url: https://example.com/norajones
+    url: https://scholar.google.com/citations?user=_QLWj-0AAAAJ&hl=en
     affiliation: Prince Sultan University
     affiliation_url: https://www.psu.edu.sa/en
 date: "`r Sys.Date()`"
