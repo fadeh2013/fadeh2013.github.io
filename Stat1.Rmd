@@ -1,7 +1,7 @@
 ---
 title: "Sample and Population"
 description: |
-  This page intorudces a simpel intorduciton to sample and population.
+  Simple intorduction to sample and population. 
 author:
   - name: Dr. Fadhah Alanai
 date: "`r Sys.Date()`"
