@@ -1,7 +1,7 @@
 ---
 title: "Sample and Population"
 description: |
-  Simple intorduction to sample and population. 
+  A simple introduction to sample and population. 
 author:
   - name: Dr. Fadhah Alanai
 date: "`r Sys.Date()`"
@@ -11,7 +11,10 @@ output: distill::distill_article
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-
+# Population and Sample
+We call it a population if we are interested in an entire group of people, animals, or items, for example, all high school students in Riyadh, Saudi Arabia. 
+If we take part of this population, then this part is called a sample. For example, out of all the high school students in Riyadh, we can select high school students 
+in specific schools as a sample for our study. 
 
 
 
