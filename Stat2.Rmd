@@ -1,0 +1,19 @@
+---
+title: "Central and Variation"
+description: |
+  Here we will learn the central and variation of the data.
+author:
+  - name: Dr. Fadhah Alanai
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Comming Soon!
+
+
+
+
