@@ -12,5 +12,15 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+## Population 
+- Population simply refers to the entire set of items, or objectives that are of interest to a specific study, such as group of people,
+animals, and objectives. 
+
+- Studying the population is not a straightforward task, challenging and impractical for many cases. One reason for that is the size of the 
+population. In many real life cases, the population size is huge making it time consuming and difficult to access and collect required data
+from each member of the population. 
+=======
+
+
 
 
