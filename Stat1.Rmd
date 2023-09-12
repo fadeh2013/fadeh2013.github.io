@@ -21,6 +21,18 @@ population. In many real life cases, the population size is huge making it time 
 from each member of the population. 
 =======
 
+## Sample
+
+- Sample is part (subset) of the population. 
+
+- Sample is collected from population under the study in aim to make inference about the entire population. 
+
+- Due to variability in samples, there will be always a potential for so-called sample error. 
+
+- Sample error, simply, refers to the difference between the population and the sample taken from it. 
+
+
+
 
 
 
