@@ -1,7 +1,7 @@
 ---
 title: "Sample and Population"
 description: |
-  Simple intorduction to sample and population. 
+  A simple introduction to sample and population. 
 author:
   - name: Dr. Fadhah Alanai
 date: "`r Sys.Date()`"
@@ -11,26 +11,6 @@ output: distill::distill_article
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-# Population 
-- Population simply refers to the entire set of items, or objectives that are of interest to a specific study, such as group of people,
-animals, and objectives. 
-
-- Studying the population is not a straightforward task, challenging and impractical for many cases. One reason for that is the size of the 
-population. In many real life cases, the population size is huge making it time consuming and difficult to access and collect required data
-from each member of the population. 
-
-- Instead of studying the population, we can select a subset of it called sample. 
-
-# Sample
-
-- Sample is part (subset) of the population. 
-
-- Sample is collected from population under the study in aim to make inference about the entire population. 
-
-- Due to variability in samples, there will be always a potential for so-called sample error. 
-
-- Sample error, simply, refers to the difference between the population and the sample taken from it. 
-
 
 
 
