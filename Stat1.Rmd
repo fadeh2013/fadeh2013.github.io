@@ -31,7 +31,13 @@ from each member of the population.
 
 - Sample error, simply, refers to the difference between the population and the sample taken from it. 
 
+## Sample technique
 
+- There are several sampling techniques which can be divided as statistical sampling and non-statistical sampling methods. 
+
+## Non-statistical Sampling method 
+
+Comming soon. 
 
 
 
