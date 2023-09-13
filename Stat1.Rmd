@@ -52,7 +52,11 @@ from each member of the population.
 4- This method may lead to potential bias as it is based on the researcher's judgments, and hence, the selected individuals may influenced by the researcher's bias or pre-concepetions.  
 
 
-Others are coming soon!
+## Statistical Sampling method 
+
+- Simple random sample 
+
+Coming Soon!
 
 
 
