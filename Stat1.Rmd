@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = FALSE)
 animals, and objectives. 
 
 - Studying the population is a complex task, often challenging and impractical. One reason for that is the size of the 
-populations. In many real-life cases, the population size is vast, making it time-consuming and challenging to access and collect the required data
+population. In many real-life cases, the population size is vast, making it time-consuming and challenging to access and collect the required data
 from each member of the population. 
 
 
@@ -48,7 +48,7 @@ from each member of the population.
 
 1- It is a non-probability sampling technique. 
 2- It is based on the researchers' judgment and experiences. 
-3- It is cost-effective as the researchers focus on specific groups in this type of sampling method. 
+3- It is cost-effective as the researchers focus on specific groups in this sampling method. 
 4- This method may lead to potential bias as it is based on the researcher's judgments, and hence, the selected individuals may influenced by the researcher's bias or pre-concepetions.  
 
 
