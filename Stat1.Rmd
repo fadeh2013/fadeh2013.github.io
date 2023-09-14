@@ -54,7 +54,7 @@ from each member of the population.
 
 ## Statistical Sampling method 
 
-- Simple random sample 
+- Simple random sample: In simple random sampling, each person/item/subject has an equally likely chance to be selected. 
 
 Coming Soon!
 
