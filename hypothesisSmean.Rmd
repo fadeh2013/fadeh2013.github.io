@@ -90,7 +90,9 @@ $Z_{\alpha} = 1.96}$ at the right side, and at $- Z_{\alpha}= - 1.96}$ at the le
 
 - $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
 
-- or $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
+or 
+
+- $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
 
 - Otherwise do not reject $H_0$. 
 
@@ -98,7 +100,7 @@ $Z_{\alpha} = 1.96}$ at the right side, and at $- Z_{\alpha}= - 1.96}$ at the le
 
 - $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
 
-- This part of the decision rule said that: If the value of the $Z_{test}$ larger than the right hand-side border of the rejection area, 
+- This part of the decision rule said that: If the value of the $Z_{test}$ larger than the right border of the rejection area, 
 then we need to reject the $H_0$. 
 
 - Ok. But why? That is because it falls inside the rejection area!
@@ -107,7 +109,7 @@ then we need to reject the $H_0$.
 
 - $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
 
-- This part of the decision rule said that: If the value of the $- Z_{test}$ smaller than the left hand-side border of the rejection area, 
+- This part of the decision rule said that: If the value of the $- Z_{test}$ smaller than the left border of the rejection area, 
 then we need to reject the $H_0$. Because it falls inside the rejection area. 
 
 ### Great! So we should compare the Z-test with the critical value. 
