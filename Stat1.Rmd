@@ -37,14 +37,14 @@ from each member of the population.
 
 # Non-statistical Sampling method 
 
-## Convenience sampling: 
+### Convenience sampling: 
 
 - It is a non-probability sampling technique. 
 - The researchers selected the individuals based on their availability and willingness to participate. 
 - It is easy and cost-effective in comparison to other sampling techniques. 
 - Due to the lack of random selection, it may lead to selection bias. 
 
-## Judgment sampling:
+### Judgment sampling:
 
 - It is a non-probability sampling technique. 
 - It is based on the researchers' judgment and experiences. 
@@ -54,7 +54,7 @@ from each member of the population.
 
 # Statistical Sampling method 
 
-## Simple random sample: 
+### Simple random sample: 
 In simple random sampling, each person/item/subject has an equally likely chance to be selected. 
 
 Coming Soon!
