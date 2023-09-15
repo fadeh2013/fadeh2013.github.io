@@ -12,7 +12,29 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+# Hypothesis test
 
+Basically, a hypothesis test is a statistical method to test a claim, believes or a status quo. In this page we are interest in the
+hypothesis test for a single mean, such that we are interested in one sample. 
+
+## Formulate the hypothesis test
+
+- In hypothesis test, a researcher needs to formulating two competing hypotheses, the null hypothesis ($H_0$) and the alternative hypothesis
+($H_a$). After that, he/she needs to use a statistical evidence to evaluate which hypothesis is more likely.
+
+### Population statndard deviation is known
+
+- If the population standard deviation is known ($\sigma$), or we have a large sample size, then we can use the normal ($Z$-Statistics). 
+
+$ Z _test = (x - μ) / (σ / √n)$
+
+Where:
+
+$z$ is the z-statistic
+$x$ is the sample mean
+$μ$ is the population mean
+$σ$ is the population standard deviation
+$n$ is the sample size
 
 
 
