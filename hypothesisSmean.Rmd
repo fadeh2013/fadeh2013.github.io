@@ -5,7 +5,6 @@ description: |
 author:
   - name: Dr. Fadhah Alanazi
 date: "`r Sys.Date()`"
-geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: distill::distill_article
 ---
 
@@ -23,7 +22,7 @@ hypothesis test for a single mean, such that we are interested in one sample.
 - In hypothesis test, a researcher needs to formulating two competing hypotheses, the null hypothesis ($H_0$) and the alternative hypothesis
 ($H_a$). After that, he/she needs to use a statistical evidence to evaluate which hypothesis is more likely.
 
-### Population statndard deviation is known
+## Population statndard deviation is known
 
 - If the population standard deviation is known ($\sigma$), or we have a large sample size, then we can use the $Z$-Statistics. 
 
@@ -37,78 +36,95 @@ Where:
 - $σ$ is the population standard deviation
 - $n$ is the sample size
 
-### Example of using Z-statistics 
+## Example of using Z-statistics 
 
-```{r, echo=FALSE}
-# Sample data
-data <- c(4.8, 5.1, 5.3, 4.9, 5.2, 5.0, 4.7, 5.3, 5.1, 5.0)
+- First of all, suppose we need to test the following hypothesis test:
 
-# Perform a z-test
-hypothesized_value <- 5
-significance_level <- 0.05
+$$H_0: \mu = 200$$
+$$H_a: \mu \neq 200$$ 
+With $$n = 50, \ \bar{x} = 197, \  \mu = 200, \ \sigma = 9, \ \alpha = 0.05$$
 
-# Calculate the sample mean and standard deviation
-sample_mean <- mean(data)
-sample_sd <- sd(data)
+### Solution:
 
-# Calculate the standard error (assuming population standard deviation is known)
-n <- length(data)
-standard_error <- sample_sd / sqrt(n)
+### Is the population standard deviation known? 
 
-# Calculate the z-statistic
-z_statistic <- (sample_mean - hypothesized_value) / standard_error
+- Yes, the population standard deviation is known and given as $\sigma = 9$. 
 
-# Determine the critical value (two-tailed test)
-critical_value <- qnorm(1 - (significance_level / 2))
+### Can we use the Z-statistics to test the hypothesis, and why?
 
-# Calculate the p-value (two-tailed test)
-p_value <- 2 * (1 - pnorm(abs(z_statistic)))
+- Yes. Because if the population standard deviation is known we can use $Z$-Statistics, also the sample size is large ($n \geq 30$).
 
-# # Compare the z-statistic with the critical value
-# if (abs(z_statistic) < critical_value) {
-#   z_decision <- "Fail to reject the null hypothesis"
-# } else {
-#   z_decision <- "Reject the null hypothesis"
-# }
+### How many rejection area do we have in this case, and why?
 
-# Compare the p-value with the significance level
-if (p_value > significance_level) {
-  p_decision <- "Fail to reject the null hypothesis"
-} else {
-  p_decision <- "Reject the null hypothesis"
-}
+- In this case, there are two rejection areas. Because the alternative hypothesis has unequal sign ("$\neq$"). That is, 
+the rejection region are determined based on the sign of the alternative hypothesis. 
 
-# Create the comparison statement comparing the z-statistic and the critical value
-comparison_statement <- paste(
-  "The z-statistic (", z_statistic, ") is",
-  if (abs(z_statistic) < critical_value) "smaller than" else "larger than or equal to",
-  "the critical value (", critical_value, ").\n",
-  "Therefore, we",
-  if (abs(z_statistic) < critical_value)
-  "fail to reject" else "reject","the null hypothesis."
-)
+### Ok. If we have two rejection regions, what we should do with the significant level?
 
-# Create the comparison statement comparing the p-value and the significance level
-comparison_statement <- paste(
-  comparison_statement,
-  "\n \n Additionally, the p-value (", p_value, ") is",
-  if (p_value > significance_level) "larger than" else "smaller than or equal to",
-  "the significance level (", significance_level, ").", "\n",
-  "Therefore, we", if (p_value > significance_level) "fail to reject" else "reject",
-  "the null hypothesis."
-)
+- If we have two rejections areas, then we must divide the significant level ($\alpha$) by $2$. That is: $$\alpha /2 = 0.05/2 = 0.025$$
 
-# Display the results and the comparison statement
-cat("Z-Test Results:\n")
-cat("Sample mean:", sample_mean, "\n")
-cat("Hypothesized value:", hypothesized_value, "\n")
-cat("Z-statistic:", z_statistic, "\n")
-cat("Critical value:", critical_value, "\n")
-# cat("Decision (based on z-statistic):", z_decision, "\n\n")
-cat("P-value:", p_value, "\n")
-cat("Significance level:", significance_level, "\n")
-# cat("Decision (based on p-value):", p_decision, "\n\n")
-cat("Comparison:\n")
-cat(comparison_statement, "\n")
-```
+### Great! What is next?
+Now we need to specify the decision rule, as follows:
+
+### Decision Rule:
+
+- Decision rule is just a decision that we made regarding rejecting or fail to reject the null hypothesis ($H_0$). 
+
+- First we need to formulate the decision rule. That is, when we reject $H_0$ and when we fail to reject $H_0$. 
+
+_ To formulate the decision rule, a good idea is to draw a normal density and to specify the rejection region, as follows:
+
+![Normal and Rejection areas](Normal_Rejection.png)
+- From the above graph, we can see that we have two rejection regions. The cut-off (border) of the rejection region start at 
+$Z_{\alpha= 1.96}$ at the right side, and at $- Z_{\alpha= - 1.96}$ at the left side. That is, the rejection regions are the red areas. 
+
+### Greate! But what does this mean?
+
+#### Good questions! Here is the answer:
+
+- (Simply) The rejection region is the area that if the $Z$-statistics or $Z$-test fall in, then we need to reject the null hypothesis. 
+
+### Great! What next?
+
+- Now, we need to specify the decision rule. When we reject the $H_0$ and when fail to reject $H_0$ based on the rejection areas as follows:
+
+- $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
+
+- or $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
+
+- Otherwise do not reject $H_0$. 
+
+### Explaining the Decision rule
+
+- $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
+
+- This part of the decision rule said that: If the value of the $Z_{test}$ larger than the right hand-side border of the rejection area, 
+then we need to reject the $H_0$. 
+
+- Ok. But why? That is because it falls inside the rejection area!
+
+- Ok. How about the left hand-side? The same situation. That is: 
+
+- $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
+
+- This part of the decision rule said that: If the value of the $- Z_{test}$ smaller than the left hand-side border of the rejection area, 
+then we need to reject the $H_0$. Because it falls inside the rejection area. 
+
+### Great! So we should compare the Z-test with the critical value. 
+
+_ Now we need to find and compare the $Z_{test}$ with the $Z_{\alpha}$. 
+
+- The following graph shows the value of the $Z_{test} = -2.36$. From the graph, the $Z_{test} = -2.36$ falls inside the left hand-side
+rejection area. 
+
+### Ok. What does this means?
+
+- As explained above, it means that the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha}= -1.96$. In other words, the $Z_{test}$ is inside the
+rejection region. Hence, based on the decision rule, we need to reject $H_0$. 
+
+![Normal](final_Sou.Nor.png)
+
+### Conclusion 
+
+- Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
 
