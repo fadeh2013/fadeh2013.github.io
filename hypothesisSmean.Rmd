@@ -26,15 +26,15 @@ hypothesis test for a single mean, such that we are interested in one sample.
 
 - If the population standard deviation is known ($\sigma$), or we have a large sample size, then we can use the normal ($Z$-Statistics). 
 
-$ Z _test = (x - μ) / (σ / √n)$
+$$Z _\textit{test} = (x - μ) / (σ / √n)$$
 
 Where:
 
-$z$ is the z-statistic
-$x$ is the sample mean
-$μ$ is the population mean
-$σ$ is the population standard deviation
-$n$ is the sample size
+- $z$ is the z-statistic
+- $x$ is the sample mean
+- $μ$ is the population mean
+- $σ$ is the population standard deviation
+- $n$ is the sample size
 
 
 

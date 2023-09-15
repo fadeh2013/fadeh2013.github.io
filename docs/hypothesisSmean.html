@@ -2457,6 +2457,25 @@ Lessons
 </div>
 
 <div class="d-article">
+<h1 id="hypothesis-test">Hypothesis test</h1>
+<p>Basically, a hypothesis test is a statistical method to test a claim, believes or a status quo. In this page we are interest in the
+hypothesis test for a single mean, such that we are interested in one sample.</p>
+<h2 id="formulate-the-hypothesis-test">Formulate the hypothesis test</h2>
+<ul>
+<li>In hypothesis test, a researcher needs to formulating two competing hypotheses, the null hypothesis (<span class="math inline">\(H_0\)</span>) and the alternative hypothesis
+(<span class="math inline">\(H_a\)</span>). After that, he/she needs to use a statistical evidence to evaluate which hypothesis is more likely.</li>
+</ul>
+<h3 id="population-statndard-deviation-is-known">Population statndard deviation is known</h3>
+<ul>
+<li>If the population standard deviation is known (<span class="math inline">\(\sigma\)</span>), or we have a large sample size, then we can use the normal (<span class="math inline">\(Z\)</span>-Statistics).</li>
+</ul>
+<p>$ Z _test = (x - μ) / (σ / √n)$</p>
+<p>Where:</p>
+<p><span class="math inline">\(z\)</span> is the z-statistic
+<span class="math inline">\(x\)</span> is the sample mean
+<span class="math inline">\(μ\)</span> is the population mean
+<span class="math inline">\(σ\)</span> is the population standard deviation
+<span class="math inline">\(n\)</span> is the sample size</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
@@ -2465,6 +2484,15 @@ Lessons
 <div class="d-appendix">
 </div>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
