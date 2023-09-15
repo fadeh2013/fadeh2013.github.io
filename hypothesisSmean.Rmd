@@ -1,0 +1,19 @@
+---
+title: "Hypothesis for a single mean"
+description: |
+  Introduction to hypothesis test for a single mean.
+author:
+  - name: Dr. Fadhah Alanazi
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+
+
+
+
