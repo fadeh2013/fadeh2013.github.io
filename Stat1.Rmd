@@ -12,7 +12,7 @@ output: distill::distill_article
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## Population 
+# Population 
 - Population refers to the entire set of items or objectives that are of interest to a specific study, such as a group of people,
 animals, and objectives. 
 
@@ -21,7 +21,7 @@ population. In many real-life cases, the population size is vast, making it time
 from each member of the population. 
 
 
-## Sample
+# Sample
 
 - Sample is a part (or a subset) of the population. 
 
@@ -31,11 +31,11 @@ from each member of the population.
 
 - Sample error refers to the difference between the population and the sample taken from it. 
 
-## Sample techniques
+# Sample techniques
 
 - Sampling techniques can be divided into statistical and non-statistical methods. 
 
-## Non-statistical Sampling method 
+# Non-statistical Sampling method 
 
 ## Convenience sampling: 
 
@@ -52,7 +52,7 @@ from each member of the population.
 - This method may lead to potential bias as it is based on the researcher's judgment, and hence, the selected individuals may influenced by the researcher's bias or pre-conceptions.  
 
 
-## Statistical Sampling method 
+# Statistical Sampling method 
 
 ## Simple random sample: 
 In simple random sampling, each person/item/subject has an equally likely chance to be selected. 
