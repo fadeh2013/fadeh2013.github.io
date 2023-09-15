@@ -5,6 +5,7 @@ description: |
 author:
   - name: Dr. Fadhah Alanazi
 date: "`r Sys.Date()`"
+geometry: "left=2cm,right=2cm,top=2cm,bottom=2cm"
 output: distill::distill_article
 ---
 
@@ -39,72 +40,75 @@ Where:
 ### Example of using Z-statistics 
 
 ```{r, echo=FALSE}
-library(shiny)
+# Sample data
+data <- c(4.8, 5.1, 5.3, 4.9, 5.2, 5.0, 4.7, 5.3, 5.1, 5.0)
 
-ui <- fluidPage(
-  titlePanel("Z-Test Hypothesis Test"),
-  sidebarLayout(
-    sidebarPanel(
-      numericInput("hypothesized_value", "Hypothesized Value", value = 5),
-      numericInput("significance_level", "Significance Level", value = 0.05),
-      actionButton("run_test", "Run Test")
-    ),
-    mainPanel(
-      verbatimTextOutput("results")
-    )
-  )
-)
+# Perform a z-test
+hypothesized_value <- 5
+significance_level <- 0.05
 
-server <- function(input, output) {
-  observeEvent(input$run_test, {
-    # Sample data
-    data <- c(4.8, 5.1, 5.3, 4.9, 5.2, 5.0, 4.7, 5.3, 5.1, 5.0)
+# Calculate the sample mean and standard deviation
+sample_mean <- mean(data)
+sample_sd <- sd(data)
 
-    # Hypothesized value
-    hypothesized_value <- input$hypothesized_value
+# Calculate the standard error (assuming population standard deviation is known)
+n <- length(data)
+standard_error <- sample_sd / sqrt(n)
 
-    # Significance level (α)
-    significance_level <- input$significance_level
+# Calculate the z-statistic
+z_statistic <- (sample_mean - hypothesized_value) / standard_error
 
-    # Calculate the sample mean and standard deviation
-    sample_mean <- mean(data)
-    sample_sd <- sd(data)
+# Determine the critical value (two-tailed test)
+critical_value <- qnorm(1 - (significance_level / 2))
 
-    # Calculate the standard error (assuming population standard deviation is known)
-    n <- length(data)
-    standard_error <- sample_sd / sqrt(n)
+# Calculate the p-value (two-tailed test)
+p_value <- 2 * (1 - pnorm(abs(z_statistic)))
 
-    # Calculate the z-statistic
-    z_statistic <- (sample_mean - hypothesized_value) / standard_error
+# # Compare the z-statistic with the critical value
+# if (abs(z_statistic) < critical_value) {
+#   z_decision <- "Fail to reject the null hypothesis"
+# } else {
+#   z_decision <- "Reject the null hypothesis"
+# }
 
-    # Determine the critical region (two-tailed test)
-    critical_value <- qnorm(1 - (significance_level / 2))
-
-    # Calculate the p-value (two-tailed test)
-    p_value <- 2 * (1 - pnorm(abs(z_statistic)))
-
-    # Make a decision based on the p-value and significance level
-    if (p_value < significance_level) {
-      decision <- "Reject the null hypothesis"
-    } else {
-      decision <- "Fail to reject the null hypothesis"
-    }
-
-    # Display the results
-    output$results <- renderPrint({
-      cat("Z-Test Results:\n")
-      cat("Sample mean:", sample_mean, "\n")
-      cat("Hypothesized value:", hypothesized_value, "\n")
-      cat("Z-statistic:", z_statistic, "\n")
-      cat("Critical value:", critical_value, "\n")
-      cat("P-value:", p_value, "\n")
-      cat(decision, "\n")
-    })
-  })
+# Compare the p-value with the significance level
+if (p_value > significance_level) {
+  p_decision <- "Fail to reject the null hypothesis"
+} else {
+  p_decision <- "Reject the null hypothesis"
 }
 
-shinyApp(ui, server)
+# Create the comparison statement comparing the z-statistic and the critical value
+comparison_statement <- paste(
+  "The z-statistic (", z_statistic, ") is",
+  if (abs(z_statistic) < critical_value) "smaller than" else "larger than or equal to",
+  "the critical value (", critical_value, ").\n",
+  "Therefore, we",
+  if (abs(z_statistic) < critical_value)
+  "fail to reject" else "reject","the null hypothesis."
+)
 
+# Create the comparison statement comparing the p-value and the significance level
+comparison_statement <- paste(
+  comparison_statement,
+  "\n \n Additionally, the p-value (", p_value, ") is",
+  if (p_value > significance_level) "larger than" else "smaller than or equal to",
+  "the significance level (", significance_level, ").", "\n",
+  "Therefore, we", if (p_value > significance_level) "fail to reject" else "reject",
+  "the null hypothesis."
+)
+
+# Display the results and the comparison statement
+cat("Z-Test Results:\n")
+cat("Sample mean:", sample_mean, "\n")
+cat("Hypothesized value:", hypothesized_value, "\n")
+cat("Z-statistic:", z_statistic, "\n")
+cat("Critical value:", critical_value, "\n")
+# cat("Decision (based on z-statistic):", z_decision, "\n\n")
+cat("P-value:", p_value, "\n")
+cat("Significance level:", significance_level, "\n")
+# cat("Decision (based on p-value):", p_decision, "\n\n")
+cat("Comparison:\n")
+cat(comparison_statement, "\n")
 ```
-
 

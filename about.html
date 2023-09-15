@@ -88,33 +88,29 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Dr. Fadhah Alanazi: Hypothesis for a single mean</title>
+  <title>Dr. Fadhah Alanazi: About this site</title>
 
-  <meta property="description" itemprop="description" content="Introduction to hypothesis test for a single mean."/>
+  <meta property="description" itemprop="description" content="In addition to Dr. Fadhah&#39;s publications, this website provides several short toturials to R and Statistics."/>
 
 
-  <!--  https://schema.org/Article -->
-  <meta property="article:published" itemprop="datePublished" content="2023-09-15"/>
-  <meta property="article:created" itemprop="dateCreated" content="2023-09-15"/>
-  <meta name="article:author" content="Dr. Fadhah Alanazi"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Dr. Fadhah Alanazi: Hypothesis for a single mean"/>
+  <meta property="og:title" content="Dr. Fadhah Alanazi: About this site"/>
   <meta property="og:type" content="article"/>
-  <meta property="og:description" content="Introduction to hypothesis test for a single mean."/>
+  <meta property="og:description" content="In addition to Dr. Fadhah&#39;s publications, this website provides several short toturials to R and Statistics."/>
   <meta property="og:locale" content="en_US"/>
   <meta property="og:site_name" content="Dr. Fadhah Alanazi"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Dr. Fadhah Alanazi: Hypothesis for a single mean"/>
-  <meta property="twitter:description" content="Introduction to hypothesis test for a single mean."/>
+  <meta property="twitter:title" content="Dr. Fadhah Alanazi: About this site"/>
+  <meta property="twitter:description" content="In addition to Dr. Fadhah&#39;s publications, this website provides several short toturials to R and Statistics."/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","geometry","output"]}},"value":[{"type":"character","attributes":{},"value":["Hypothesis for a single mean"]},{"type":"character","attributes":{},"value":["Introduction to hypothesis test for a single mean.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name"]}},"value":[{"type":"character","attributes":{},"value":["Dr. Fadhah Alanazi"]}]}]},{"type":"character","attributes":{},"value":["2023-09-15"]},{"type":"character","attributes":{},"value":["left=2cm,right=2cm,top=2cm,bottom=2cm"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["About this site"]},{"type":"character","attributes":{},"value":["In addition to Dr. Fadhah's publications, this website provides several short toturials to R and Statistics. "]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2409,7 +2405,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Hypothesis for a single mean","description":"Introduction to hypothesis test for a single mean.","authors":[{"author":"Dr. Fadhah Alanazi","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2023-09-15T00:00:00.000+03:00","citationText":"Alanazi, 2023"}
+{"title":"About this site","description":"In addition to Dr. Fadhah's publications, this website provides several short toturials to R and Statistics.","authors":[]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2444,57 +2440,15 @@ Lessons
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Hypothesis for a single mean</h1>
+<h1>About this site</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Introduction to hypothesis test for a single mean.</p></p>
+<p><p>In addition to Dr. Fadhah’s publications, this website provides several short toturials to R and Statistics.</p></p>
 </div>
 
-<div class="d-byline">
-  Dr. Fadhah Alanazi  
-  
-<br/>2023-09-15
-</div>
 
 <div class="d-article">
-<h1 id="hypothesis-test">Hypothesis test</h1>
-<p>Basically, a hypothesis test is a statistical method to test a claim, believes or a status quo. In this page we are interest in the
-hypothesis test for a single mean, such that we are interested in one sample.</p>
-<h2 id="formulate-the-hypothesis-test">Formulate the hypothesis test</h2>
-<ul>
-<li>In hypothesis test, a researcher needs to formulating two competing hypotheses, the null hypothesis (<span class="math inline">\(H_0\)</span>) and the alternative hypothesis
-(<span class="math inline">\(H_a\)</span>). After that, he/she needs to use a statistical evidence to evaluate which hypothesis is more likely.</li>
-</ul>
-<h3 id="population-statndard-deviation-is-known">Population statndard deviation is known</h3>
-<ul>
-<li>If the population standard deviation is known (<span class="math inline">\(\sigma\)</span>), or we have a large sample size, then we can use the <span class="math inline">\(Z\)</span>-Statistics.</li>
-</ul>
-<p><span class="math display">\[Z _\textit{test} = \frac{(\bar{x} - μ)} {(σ / √n)}\]</span></p>
-<p>Where:</p>
-<ul>
-<li><span class="math inline">\(z\)</span> is the z-statistic</li>
-<li><span class="math inline">\(\bar{x}\)</span> is the sample mean</li>
-<li><span class="math inline">\(μ\)</span> is the population mean</li>
-<li><span class="math inline">\(σ\)</span> is the population standard deviation</li>
-<li><span class="math inline">\(n\)</span> is the sample size</li>
-</ul>
-<h3 id="example-of-using-z-statistics">Example of using Z-statistics</h3>
-<div class="layout-chunk" data-layout="l-body">
-<pre><code>Z-Test Results:</code></pre>
-<pre><code>Sample mean: 5.04 </code></pre>
-<pre><code>Hypothesized value: 5 </code></pre>
-<pre><code>Z-statistic: 0.6289709 </code></pre>
-<pre><code>Critical value: 1.959964 </code></pre>
-<pre><code>P-value: 0.5293681 </code></pre>
-<pre><code>Significance level: 0.05 </code></pre>
-<pre><code>Comparison:</code></pre>
-<pre><code>The z-statistic ( 0.628970902033152 ) is smaller than the critical value ( 1.95996398454005 ).
- Therefore, we fail to reject the null hypothesis. 
- 
- Additionally, the p-value ( 0.529368106184797 ) is larger than the significance level ( 0.05 ). 
- Therefore, we fail to reject the null hypothesis. </code></pre>
-</div>
-<div class="sourceCode" id="cb10"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
@@ -2502,15 +2456,6 @@ hypothesis test for a single mean, such that we are interested in one sample.</p
 <div class="d-appendix">
 </div>
 
-<!-- dynamically load mathjax for compatibility with self-contained -->
-<script>
-  (function () {
-    var script = document.createElement("script");
-    script.type = "text/javascript";
-    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
-    document.getElementsByTagName("head")[0].appendChild(script);
-  })();
-</script>
 
 <!--radix_placeholder_site_after_body-->
 <!--/radix_placeholder_site_after_body-->
