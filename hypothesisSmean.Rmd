@@ -114,8 +114,6 @@ then we need to reject the $H_0$. Because it falls inside the rejection area.
 
 ### Great! So we should compare the Z-test with the critical value. 
 
-_ Now we need to find and compare the $Z_{test}$ with the $Z_{\alpha}$. 
-
 - The following graph shows the value of the $Z_{test} = -2.36$. From the graph, the $Z_{test} = -2.36$ falls inside the left hand-side
 rejection area. 
 
