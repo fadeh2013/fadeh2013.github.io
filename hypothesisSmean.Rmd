@@ -40,7 +40,6 @@ Where:
 
 ```{r, echo=FALSE}
 library(shiny)
-shinyApp(
 
 ui <- fluidPage(
   titlePanel("Z-Test Hypothesis Test"),
@@ -105,7 +104,7 @@ server <- function(input, output) {
 }
 
 shinyApp(ui, server)
-)
+
 ```
 
 
