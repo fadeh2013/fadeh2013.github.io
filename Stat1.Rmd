@@ -35,7 +35,7 @@ from each member of the population.
 
 - Sampling techniques can be divided into statistical and non-statistical methods. 
 
-# Non-statistical Sampling method 
+## Non-statistical Sampling method 
 
 ### Convenience sampling: 
 
@@ -52,7 +52,7 @@ from each member of the population.
 - This method may lead to potential bias as it is based on the researcher's judgment, and hence, the selected individuals may influenced by the researcher's bias or pre-conceptions.  
 
 
-# Statistical Sampling method 
+## Statistical Sampling method 
 
 ### Simple random sample: 
 In simple random sampling, each person/item/subject has an equally likely chance to be selected. 
