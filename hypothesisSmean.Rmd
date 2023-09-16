@@ -74,9 +74,9 @@ Now we need to specify the decision rule, as follows:
 
 _ To formulate the decision rule, a good idea is to draw a graph and to specify the rejection region, as follows:
 
-![Normal and Rejection areas](Normal_Rejection.png)
+![Normal and Rejection areas](images/Normal_Rejection.png)
 - From the above graph, we can see that we have two rejection regions. The cut-off (border) of the rejection region start at 
-$Z_{\alpha} = 1.96}$ at the right side, and at $- Z_{\alpha} = - 1.96}$ at the left side. That is, the rejection regions are the red areas. 
+$Z_{\alpha/2}$ $= 1.96}$ at the right side, and at $- Z_{\alpha/2}$ $= - 1.96}$ at the left side. That is, the rejection regions are the red areas. 
 
 ### Greate! But what does this mean?
 
@@ -88,17 +88,17 @@ $Z_{\alpha} = 1.96}$ at the right side, and at $- Z_{\alpha} = - 1.96}$ at the l
 
 - Now, we need to specify the decision rule. When we reject the $H_0$ and when fail to reject $H_0$ based on the rejection areas as follows:
 
-- $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
+- $$ If \ Z_{test} > Z_{\alpha/2} = 1.96 \rightarrow \  Reject \ H_0$$
 
 or 
 
-- $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
+- $$ If \ - Z_{test} < - Z_{\alpha/2} = - 1.96 \rightarrow \  Reject \ H_0$$
 
 - Otherwise do not reject $H_0$. 
 
 ### Explaining the Decision rule
 
-- $$ If \ Z_{test} > Z_{\alpha} = 1.96 \rightarrow \  Reject \ H_0$$
+- $$ If \ Z_{test} > Z_{\alpha/2} = 1.96 \rightarrow \  Reject \ H_0$$
 
 - This part of the decision rule said that: If the value of the $Z_{test}$ larger than the right border of the rejection area, 
 then we need to reject the $H_0$. 
@@ -107,7 +107,7 @@ then we need to reject the $H_0$.
 
 - Ok. How about the left hand-side? The same situation. That is: 
 
-- $$ If \ - Z_{test} < - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0$$
+- $$ If \ - Z_{test} < - Z_{\alpha/2} = - 1.96 \rightarrow \  Reject \ H_0$$
 
 This part of the decision rule said that: If the value of the $- Z_{test}$ smaller than the left border of the rejection area, 
 then we need to reject the $H_0$. Because it falls inside the rejection area. 
@@ -119,12 +119,16 @@ rejection area.
 
 ### Ok. What does this means?
 
-As explained above, it means that the $- Z_{test} = -2.36$ is smaller than the $- Z_{\alpha} = -1.96$. In other words, the $- Z_{test}$ is inside the
+As explained above, it means that the $- Z_{test} = -2.36$ is smaller than the $- Z_{\alpha/2} = -1.96$. In other words, the $- Z_{test}$ is inside the
 rejection region. Hence, based on the decision rule, we need to reject $H_0$. 
 
-![Normal](final_Sou.Nor.png)
+![Normal](images/final_Sou.Nor.png)
 
 ### Conclusion 
 
-- Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
+- Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha/2}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
+
+## How to do it using Statcrunch 
+
+
 
