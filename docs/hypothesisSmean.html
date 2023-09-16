@@ -2511,22 +2511,20 @@ the rejection region are determined based on the sign of the alternative hypothe
 <li><p>First we need to formulate the decision rule. That is, when we reject <span class="math inline">\(H_0\)</span> and when we fail to reject <span class="math inline">\(H_0\)</span>.</p></li>
 </ul>
 <p>_ To formulate the decision rule, a good idea is to draw a graph and to specify the rejection region, as follows:</p>
-<p><img src="images/Normal_Rejection.png" alt="Normal and Rejection areas" />
-- From the above graph, we can see that we have two rejection regions. The cut-off (border) of the rejection region start at
-<<<<<<< HEAD
-<span class="math inline">\(Z_{\alpha/2}\)</span> <span class="math inline">\(= 1.96}\)</span> at the right side, and at <span class="math inline">\(- Z_{\alpha/2}\)</span> <span class="math inline">\(= - 1.96}\)</span> at the left side. That is, the rejection regions are the red areas.</p>
-=======
-<span class="math inline">\(Z_{\alpha} = 1.96}\)</span> at the right side, and at <span class="math inline">\(- Z_{\alpha} = - 1.96}\)</span> at the left side. That is, the rejection regions are the red areas.</p>
->>>>>>> d9dcd0677f2b7a276cc4b1b65603c2117850f75b
-<h3 id="greate-but-what-does-this-mean">Greate! But what does this mean?</h3>
-<h4 id="good-questions-here-is-the-answer">Good questions! Here is the answer:</h4>
+<figure>
+<img src="images/Normal_Rejection.png" alt="Normal and Rejection areas" />
+<figcaption aria-hidden="true">Normal and Rejection areas</figcaption>
+</figure>
 <ul>
-<li>(Simply) The rejection region is the area that if the <span class="math inline">\(Z\)</span>-statistics or <span class="math inline">\(Z\)</span>-test fall in, then we need to reject the null hypothesis.</li>
+<li>From the above graph, we can see that we have two rejection regions. The cut-off (border) of the rejection region start at
+<span class="math inline">\(Z_{\alpha/2}\)</span> <span class="math inline">\(= 1.96\)</span> at the right side, and at <span class="math inline">\(- Z_{\alpha/2}\)</span> <span class="math inline">\(= - 1.96\)</span> at the left side. That is, the rejection regions are the red areas.</li>
 </ul>
+<h3 id="greate-but-what-does-this-mean">Greate! But what does this mean?</h3>
+<p>(Simply) The rejection region is the area that if the <span class="math inline">\(Z\)</span>-statistics or <span class="math inline">\(Z\)</span>-test fall in, then we need to reject the null hypothesis.</p>
 <h3 id="great-what-next">Great! What next?</h3>
+<p>Now, we need to specify the decision rule. When we reject the <span class="math inline">\(H_0\)</span> and when fail to reject <span class="math inline">\(H_0\)</span> based on the rejection areas as follows:</p>
 <ul>
-<li><p>Now, we need to specify the decision rule. When we reject the <span class="math inline">\(H_0\)</span> and when fail to reject <span class="math inline">\(H_0\)</span> based on the rejection areas as follows:</p></li>
-<li><p><span class="math display">\[ If \ Z_{test} &gt; Z_{\alpha/2} = 1.96 \rightarrow \  Reject \ H_0\]</span></p></li>
+<li><span class="math display">\[ If \ Z_{test} &gt; Z_{\alpha/2} = 1.96 \rightarrow \  Reject \ H_0\]</span></li>
 </ul>
 <p>or</p>
 <ul>
@@ -2540,11 +2538,7 @@ the rejection region are determined based on the sign of the alternative hypothe
 then we need to reject the <span class="math inline">\(H_0\)</span>.</p></li>
 <li><p>Ok. But why? That is because it falls inside the rejection area!</p></li>
 <li><p>Ok. How about the left hand-side? The same situation. That is:</p></li>
-<<<<<<< HEAD
 <li><p><span class="math display">\[ If \ - Z_{test} &lt; - Z_{\alpha/2} = - 1.96 \rightarrow \  Reject \ H_0\]</span></p></li>
-=======
-<li><p><span class="math display">\[ If \ - Z_{test} &lt; - Z_{\alpha} = - 1.96 \rightarrow \  Reject \ H_0\]</span></p></li>
->>>>>>> d9dcd0677f2b7a276cc4b1b65603c2117850f75b
 </ul>
 <p>This part of the decision rule said that: If the value of the <span class="math inline">\(- Z_{test}\)</span> smaller than the left border of the rejection area,
 then we need to reject the <span class="math inline">\(H_0\)</span>. Because it falls inside the rejection area.</p>
@@ -2552,21 +2546,14 @@ then we need to reject the <span class="math inline">\(H_0\)</span>. Because it 
 <p>The graph shows the value of the <span class="math inline">\(- Z_{test} = -2.36\)</span>. From the graph, the <span class="math inline">\(- Z_{test} = -2.36\)</span> falls inside the left
 rejection area.</p>
 <h3 id="ok.-what-does-this-means">Ok. What does this means?</h3>
-<<<<<<< HEAD
 <p>As explained above, it means that the <span class="math inline">\(- Z_{test} = -2.36\)</span> is smaller than the <span class="math inline">\(- Z_{\alpha/2} = -1.96\)</span>. In other words, the <span class="math inline">\(- Z_{test}\)</span> is inside the
-=======
-<p>As explained above, it means that the <span class="math inline">\(- Z_{test} = -2.36\)</span> is smaller than the <span class="math inline">\(- Z_{\alpha} = -1.96\)</span>. In other words, the <span class="math inline">\(- Z_{test}\)</span> is inside the
->>>>>>> d9dcd0677f2b7a276cc4b1b65603c2117850f75b
 rejection region. Hence, based on the decision rule, we need to reject <span class="math inline">\(H_0\)</span>.</p>
 <figure>
 <img src="images/final_Sou.Nor.png" alt="Normal" />
 <figcaption aria-hidden="true">Normal</figcaption>
 </figure>
 <h3 id="conclusion">Conclusion</h3>
-<ul>
-<li>Because the <span class="math inline">\(Z_{test} = -2.36\)</span> is smaller than the <span class="math inline">\(Z_{\alpha/2}= -1.96\)</span>, and hence falls in the rejection region, we reject <span class="math inline">\(H_0\)</span>, and conclude that, the population mean is not equal to <span class="math inline">\(200\)</span>.</li>
-</ul>
-<h2 id="how-to-do-it-using-statcrunch">How to do it using Statcrunch</h2>
+<p>Because the <span class="math inline">\(Z_{test} = -2.36\)</span> is smaller than the <span class="math inline">\(Z_{\alpha/2}= -1.96\)</span>, and hence falls in the rejection region, we reject <span class="math inline">\(H_0\)</span>, and conclude that, the population mean is not equal to <span class="math inline">\(200\)</span>. Because we reject <span class="math inline">\(H_0\)</span>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->

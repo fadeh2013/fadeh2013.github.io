@@ -77,6 +77,7 @@ _ To formulate the decision rule, a good idea is to draw a graph and to specify 
 
 ![Normal and Rejection areas](images/Normal_Rejection.png)
 
+
 - From the above graph, we can see that we have two rejection regions. The cut-off (border) of the rejection region start at 
 $Z_{\alpha/2}$ $= 1.96$ at the right side, and at $- Z_{\alpha/2}$ $= - 1.96$ at the left side. That is, the rejection regions are the red areas. 
 
