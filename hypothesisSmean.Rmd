@@ -127,8 +127,11 @@ rejection region. Hence, based on the decision rule, we need to reject $H_0$.
 ### Conclusion 
 
 - Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha/2}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
+<<<<<<< HEAD
 
 ## How to do it using Statcrunch 
 
 
+=======
+>>>>>>> d9dcd0677f2b7a276cc4b1b65603c2117850f75b
 
