@@ -82,13 +82,11 @@ $Z_{\alpha/2}$ $= 1.96$ at the right side, and at $- Z_{\alpha/2}$ $= - 1.96$ at
 
 ### Greate! But what does this mean?
 
-#### Good questions! Here is the answer:
-
-- (Simply) The rejection region is the area that if the $Z$-statistics or $Z$-test fall in, then we need to reject the null hypothesis. 
+(Simply) The rejection region is the area that if the $Z$-statistics or $Z$-test fall in, then we need to reject the null hypothesis. 
 
 ### Great! What next?
 
-- Now, we need to specify the decision rule. When we reject the $H_0$ and when fail to reject $H_0$ based on the rejection areas as follows:
+Now, we need to specify the decision rule. When we reject the $H_0$ and when fail to reject $H_0$ based on the rejection areas as follows:
 
 - $$ If \ Z_{test} > Z_{\alpha/2} = 1.96 \rightarrow \  Reject \ H_0$$
 
@@ -128,7 +126,7 @@ rejection region. Hence, based on the decision rule, we need to reject $H_0$.
 
 ### Conclusion 
 
-- Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha/2}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
+Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha/2}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. Because we reject $H_0$. 
 
 
 
