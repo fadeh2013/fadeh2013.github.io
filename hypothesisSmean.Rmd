@@ -64,6 +64,7 @@ the rejection region are determined based on the sign of the alternative hypothe
 - If we have two rejections areas, then we must divide the significant level ($\alpha$) by $2$. That is: $$\alpha /2 = 0.05/2 = 0.025$$
 
 ### Great! What is next?
+
 Now we need to specify the decision rule, as follows:
 
 ### Decision Rule:
@@ -129,6 +130,6 @@ rejection region. Hence, based on the decision rule, we need to reject $H_0$.
 
 - Because the $Z_{test} = -2.36$ is smaller than the $Z_{\alpha/2}= -1.96$, and hence falls in the rejection region, we reject $H_0$, and conclude that, the population mean is not equal to $200$. 
 
-## How to do it using Statcrunch 
+
 
 
