@@ -27,8 +27,10 @@ The normal distribution has several important properties that make it widely use
 
 - Central Limit Theorem: The sum or average of a large number of independent and identically distributed random variables tends to follow a normal distribution, regardless of the shape of the original distribution. 
 
-- Z-Score: The z-score, also known as the standard score, is a measure of how many standard deviations an observation or data point is away from the mean. It allows for standardized comparisons between different values and is commonly used in hypothesis testing and statistical analysis. Any normal distribution can be converted to the standard normal distribution using the z-score $z = \frac{x - \mu}{\sigma}$.
-
+- Z-Score: The z-score, also known as the standard score, is a measure of how many standard deviations an observation or data point is away from the mean. It allows for standardized comparisons between different values and is commonly used in hypothesis testing and statistical analysis. Any normal distribution can be converted to the standard normal distribution using the z-score formula:
+\begin{equation}
+z = \frac{x - \mu}{\sigma}
+\end{equation}
 - Probability Density Function (PDF): The normal distribution is described by a probability density function, which gives the probability of observing a particular value or range of values. The PDF is defined by the mean and standard deviation parameters.
 
 
