@@ -39,5 +39,5 @@ z = \frac{x - \mu}{\sigma}
 it is designed for the standard normal distribution. Hence, we first need to transform the normal distribution with the given 
 values into standard one using the z-score formula as shown above. The following is an example of this case. 
 
-- ![First way](images/FirstWay.jpg)
+- !(images/FirstWay.jpg)
 
