@@ -21,7 +21,7 @@ navbar:
            - text: "Normal distribution"
              href: Normal_Distribution.html
             - text: "Goodness-of-fit"
-             href: Goodness-of-fit.html            
+             href: Goodness_of_fit.html            
     - text: "About"
       href: about.html
 output: distill::distill_article
