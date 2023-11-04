@@ -1,0 +1,22 @@
+---
+title: "Goodness of fit test for binomial distribution"
+description: |
+  A video about using the goodness-of-fit chi-square test for the binomail disribution using Statcrunch
+author:
+  - name: Dr. Fadhah Alanazi 
+date: "`r Sys.Date()`"
+output: distill::distill_article
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+- The video shows you how you can apply the goodness-of-fit Chi-square test for the binomial distribution using Statcrunch. 
+
+![watch the video](https://youtu.be/WSPDOxpbkyQ?si=9Tzhfc2Ts0r7gwbr)
+
+
+
+
+
