@@ -20,6 +20,8 @@ navbar:
              href: Rstudio1.html
            - text: "Normal distribution"
              href: Normal_Distribution.html
+            - text: "Goodness-of-fit"
+             href: Goodness-of-fit.html            
     - text: "About"
       href: about.html
 output: distill::distill_article
