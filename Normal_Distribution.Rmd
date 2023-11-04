@@ -39,5 +39,14 @@ z = \frac{x - \mu}{\sigma}
 it is designed for the standard normal distribution. Hence, we first need to transform the normal distribution with the given 
 values into standard one using the z-score formula as shown above. The following is an example of this case. 
 
-- ![First way](images/FirstWay.jpg)
+ ![First way](images/FirstWay.jpg)
 
+- The second way is when we are given the z-value, so here there is no need to use the z-score step. Hence, we can 
+directly use the z-table. See the following example. 
+
+![Second way](images/SecondWay.jpg)
+
+- The third way is when we are given the probability, and we need to find the z or x values. This case is called the inverse 
+normal distribution. See the following example. 
+
+![Third way](images/ThirdWay.jpg)
