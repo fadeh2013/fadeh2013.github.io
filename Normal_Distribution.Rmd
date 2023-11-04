@@ -33,6 +33,11 @@ z = \frac{x - \mu}{\sigma}
 \end{equation}
 - Probability Density Function (PDF): The normal distribution is described by a probability density function, which gives the probability of observing a particular value or range of values. The PDF is defined by the mean and standard deviation parameters.
 
+- When working with the z-table we have three different situations as follows:
 
+- When the $x$, $\mu$ and the $\sigma$ values are given in the question. In this case, we cannot use the z-table directly as 
+it is designed for the standard normal distribution. Hence, we first need to transform the normal distribution with the given 
+values into standard one using the z-score formula as shown above. The following is an example of this case. 
 
+- ![First way](images/FirstWay.jpg)
 
