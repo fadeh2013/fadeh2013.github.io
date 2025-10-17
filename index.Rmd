@@ -5,7 +5,7 @@ links:
   - label: '<i class="fab fa-github"></i> GitHub'
     url: 'https://github.com/fadeh2013'
   - label: '<i class="fab fa-linkedin"></i> LinkedIn'
-    url: 'https://linkedin.com/in/dr-fadhah-alanazi-840726289'
+    url: 'https://www.linkedin.com/in/%D8%AF-%D9%81%D8%B6%D9%87-%D8%A7%D9%84%D8%B9%D9%86%D8%B2%D9%8A-dr-fahdha-alanazi-840726289/'
 output:
   postcards::trestles
 site: distill::distill_website
